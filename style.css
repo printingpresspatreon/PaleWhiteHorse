@@ -1,0 +1,73 @@
+/* ID */
+
+#wrapper {
+  height: 300vh;
+  width: 100vw;
+  background-color: #E1E1E1;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+}
+
+#header {
+  height: 90px;
+  width: 100%;
+  float: left;
+  background-color: #000;
+  position: fixed;
+  top: 0px;
+  text-align: left;
+}
+
+#nav-bar {
+  height: 50px;
+  width: 100%;
+  background-color: #A3A3A3;
+  position: fixed;
+  top: 90px;
+}
+
+#footer {
+  height: 25px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+}
+
+/* KEYFRAME */
+
+@keyframes intro{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* */
+
+#header > h1 {
+  font-family: 'Fascinate Inline', cursive;
+  color: white;
+  font-size: 60px;
+  animation-name: intro;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  margin: 10px;
+}
+
+#nav-bar > button {
+  height: 30px;
+  width: 100px;
+  font-size: 19px;
+  border-style: none;
+  border-radius: 15px;
+  background-color: white;
+  font-family: 'Playball', cursive;
+  margin: 10px auto;
+  position: relative;
+  left: 10px;
+}
